@@ -1,0 +1,3 @@
+# PHP Loose Comparison Pitfalls
+
+This repository demonstrates a common, yet subtle, error in PHP programming related to loose comparison and type juggling. Loose comparison (`==`) can lead to unexpected behavior when comparing strings and numbers, particularly when combined with functions like `empty()` and `isset()`. The example highlights this issue and provides a solution using strict comparison (`===`).
